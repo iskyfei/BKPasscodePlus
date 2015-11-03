@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B5D6F2DCE47012F5A234BBC5546380 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5FC9E2EB08C0DDF34FA611FB46940E5C /* Pods-BKPasscodeViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0242AAFA5BBB1BA7179410653A587EEE /* Pods-BKPasscodeViewDemo-dummy.m */; };
+		7F48BD1D4754194C2AB21A25649B9B16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		85F60E49D6FA8D2EBC11AFB8E3EE9EEF /* AFViewShaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E62BB78DB6BC97D63D5D03C15D5BA942 /* AFViewShaker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DAF3736E1FC9CBC1D117E785D9767831 /* AFViewShaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3351BEFE0B51D5B88EF4E0ABCE7D073D /* AFViewShaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5324B792BB1D0CD9E608EFB6D1FC380 /* AFViewShaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25729827B3C15993DE27BCC1F76B9F3E /* AFViewShaker-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D0217466D18F1C2BBDBA91AB550ACDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499E02707080D83C86D4029D60C38866;
+			remoteInfo = AFViewShaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022BFA5A6EC905330F960BCF825325FE /* libAFViewShaker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFViewShaker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0242AAFA5BBB1BA7179410653A587EEE /* Pods-BKPasscodeViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BKPasscodeViewDemo-dummy.m"; sourceTree = "<group>"; };
+		25729827B3C15993DE27BCC1F76B9F3E /* AFViewShaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFViewShaker-dummy.m"; sourceTree = "<group>"; };
+		3351BEFE0B51D5B88EF4E0ABCE7D073D /* AFViewShaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFViewShaker.h; path = AFViewShaker/AFViewShaker.h; sourceTree = "<group>"; };
+		39AAC9E65B20FD8DDE94FF2C587C9767 /* Pods-BKPasscodeViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BKPasscodeViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4DD772BFD0D74C0764DA721BDCAD9424 /* libPods-BKPasscodeViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BKPasscodeViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EE5AEEEA1D3ED038285CA83BB51006 /* Pods-BKPasscodeViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BKPasscodeViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9571974F9A1A0D81C1A16121AB667FA5 /* Pods-BKPasscodeViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BKPasscodeViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFB3E2078504ECB6AF5115744E246C0E /* AFViewShaker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFViewShaker-prefix.pch"; sourceTree = "<group>"; };
+		B925B739A0F73D12D43162DFDF857036 /* AFViewShaker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFViewShaker.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE64D0C7383F96A0DEAA11F40FF32C10 /* Pods-BKPasscodeViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BKPasscodeViewDemo-resources.sh"; sourceTree = "<group>"; };
+		E62BB78DB6BC97D63D5D03C15D5BA942 /* AFViewShaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFViewShaker.m; path = AFViewShaker/AFViewShaker.m; sourceTree = "<group>"; };
+		F24BA205EE92EF6A793C536B482F8AEF /* Pods-BKPasscodeViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BKPasscodeViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA5AF4611B3672C62AAB35FFB824BC7A /* Pods-BKPasscodeViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BKPasscodeViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C1FF10906EE1C294A881E7A67A1F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B5D6F2DCE47012F5A234BBC5546380 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F12824979AF7B70CF7DAB2BB210967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F48BD1D4754194C2AB21A25649B9B16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1073CA497180DE6AE9B940FDE6ED9363 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B925B739A0F73D12D43162DFDF857036 /* AFViewShaker.xcconfig */,
+				25729827B3C15993DE27BCC1F76B9F3E /* AFViewShaker-dummy.m */,
+				AFB3E2078504ECB6AF5115744E246C0E /* AFViewShaker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFViewShaker";
+			sourceTree = "<group>";
+		};
+		13E33944C7659C917B3E5143EF4E4F84 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BEA7906799E7D226D2152ADCF3E2D36 /* Pods-BKPasscodeViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2762628BA7F570CD09D9DD1E85E3AC62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				022BFA5A6EC905330F960BCF825325FE /* libAFViewShaker.a */,
+				4DD772BFD0D74C0764DA721BDCAD9424 /* libPods-BKPasscodeViewDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43D16EFE25C01F1002693BD74F942151 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84FC9448362A21B66651400020743A52 /* AFViewShaker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7BEA7906799E7D226D2152ADCF3E2D36 /* Pods-BKPasscodeViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F24BA205EE92EF6A793C536B482F8AEF /* Pods-BKPasscodeViewDemo-acknowledgements.markdown */,
+				9571974F9A1A0D81C1A16121AB667FA5 /* Pods-BKPasscodeViewDemo-acknowledgements.plist */,
+				0242AAFA5BBB1BA7179410653A587EEE /* Pods-BKPasscodeViewDemo-dummy.m */,
+				FA5AF4611B3672C62AAB35FFB824BC7A /* Pods-BKPasscodeViewDemo-frameworks.sh */,
+				DE64D0C7383F96A0DEAA11F40FF32C10 /* Pods-BKPasscodeViewDemo-resources.sh */,
+				60EE5AEEEA1D3ED038285CA83BB51006 /* Pods-BKPasscodeViewDemo.debug.xcconfig */,
+				39AAC9E65B20FD8DDE94FF2C587C9767 /* Pods-BKPasscodeViewDemo.release.xcconfig */,
+			);
+			name = "Pods-BKPasscodeViewDemo";
+			path = "Target Support Files/Pods-BKPasscodeViewDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				43D16EFE25C01F1002693BD74F942151 /* Pods */,
+				2762628BA7F570CD09D9DD1E85E3AC62 /* Products */,
+				13E33944C7659C917B3E5143EF4E4F84 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84FC9448362A21B66651400020743A52 /* AFViewShaker */ = {
+			isa = PBXGroup;
+			children = (
+				3351BEFE0B51D5B88EF4E0ABCE7D073D /* AFViewShaker.h */,
+				E62BB78DB6BC97D63D5D03C15D5BA942 /* AFViewShaker.m */,
+				1073CA497180DE6AE9B940FDE6ED9363 /* Support Files */,
+			);
+			path = AFViewShaker;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B030C2371A0CABFBF03C598861270B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF3736E1FC9CBC1D117E785D9767831 /* AFViewShaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		499E02707080D83C86D4029D60C38866 /* AFViewShaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A860845C1C9F3F15D1F06CC3147A137 /* Build configuration list for PBXNativeTarget "AFViewShaker" */;
+			buildPhases = (
+				CF1B78EEC46735A695E7C11271BFE7F3 /* Sources */,
+				24C1FF10906EE1C294A881E7A67A1F3A /* Frameworks */,
+				3B030C2371A0CABFBF03C598861270B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFViewShaker;
+			productName = AFViewShaker;
+			productReference = 022BFA5A6EC905330F960BCF825325FE /* libAFViewShaker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D0418CF4F59C10C202EB6AB16E253354 /* Pods-BKPasscodeViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823D2DE7CC698EFA83311C8F374745BF /* Build configuration list for PBXNativeTarget "Pods-BKPasscodeViewDemo" */;
+			buildPhases = (
+				AB5EEBEDF8AF2B0D1C3A09811B5153A8 /* Sources */,
+				B0F12824979AF7B70CF7DAB2BB210967 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2472CE9937FD1C5FE723DD77DD91A4E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-BKPasscodeViewDemo";
+			productName = "Pods-BKPasscodeViewDemo";
+			productReference = 4DD772BFD0D74C0764DA721BDCAD9424 /* libPods-BKPasscodeViewDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2762628BA7F570CD09D9DD1E85E3AC62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499E02707080D83C86D4029D60C38866 /* AFViewShaker */,
+				D0418CF4F59C10C202EB6AB16E253354 /* Pods-BKPasscodeViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5EEBEDF8AF2B0D1C3A09811B5153A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC9E2EB08C0DDF34FA611FB46940E5C /* Pods-BKPasscodeViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1B78EEC46735A695E7C11271BFE7F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5324B792BB1D0CD9E608EFB6D1FC380 /* AFViewShaker-dummy.m in Sources */,
+				85F60E49D6FA8D2EBC11AFB8E3EE9EEF /* AFViewShaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2472CE9937FD1C5FE723DD77DD91A4E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFViewShaker;
+			target = 499E02707080D83C86D4029D60C38866 /* AFViewShaker */;
+			targetProxy = 7D0217466D18F1C2BBDBA91AB550ACDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0752D867FAE11A975057165B89EEAFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B925B739A0F73D12D43162DFDF857036 /* AFViewShaker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFViewShaker/AFViewShaker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4E56D277C7FA97270913882041A7839D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AAC9E65B20FD8DDE94FF2C587C9767 /* Pods-BKPasscodeViewDemo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		527976EADDC58321241EC23B6E025622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60EE5AEEEA1D3ED038285CA83BB51006 /* Pods-BKPasscodeViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58FB81DAEDB38D05BAD33920A5B5D63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF1BC204DE94B02454F00D0FC406B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E002D985D8EB50B08B50D726DB8469C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B925B739A0F73D12D43162DFDF857036 /* AFViewShaker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFViewShaker/AFViewShaker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF1BC204DE94B02454F00D0FC406B16 /* Debug */,
+				58FB81DAEDB38D05BAD33920A5B5D63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823D2DE7CC698EFA83311C8F374745BF /* Build configuration list for PBXNativeTarget "Pods-BKPasscodeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527976EADDC58321241EC23B6E025622 /* Debug */,
+				4E56D277C7FA97270913882041A7839D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A860845C1C9F3F15D1F06CC3147A137 /* Build configuration list for PBXNativeTarget "AFViewShaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E002D985D8EB50B08B50D726DB8469C1 /* Debug */,
+				0752D867FAE11A975057165B89EEAFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,10 @@
+PODS:
+  - AFViewShaker (0.0.2)
+
+DEPENDENCIES:
+  - AFViewShaker (~> 0.0)
+
+SPEC CHECKSUMS:
+  AFViewShaker: 7e4bc215ca3e92347b78da436fca74e1730b52e8
+
+COCOAPODS: 0.39.0
